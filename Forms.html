@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Creating forms</title>
+        <link rel="stylesheet" href="css/Selector.css"/>
+    </head>
+    <body>
+        <form align="center">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter email" required>
+            <br/><br/>
+              
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required><br/>
+            <br/>
+            <input type="button" name="button"/>Enter Gender<br/>
+            <input type="radio" name="gender" value="Male"/>Male<br/>
+            <input type="radio" name="gender" value="Female"/>Female<br/>
+            <input type="radio" name="gender" value="others"/>others<br/>
+            <br/>
+
+            <input type="checkbox" name="interest" value="Cricket"/>Ciricket<br/>
+            <input type="checkbox" name="interest" value="Basket ball"/>Basket ball<br/>
+            <input type="checkbox" name="interest" value="football"/>football<br/>
+            <input type="checkbox" name="interest" value="Chess"/>Chess<br/>
+            <input type="date" name="date" value="date"/>
+            <br/>
+
+            <select name="City">
+                <option value="Kolkata">Kolkata</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Ap">Ap</option>
+                <option value="Telangana">Telengana</option>
+                <option value="Goa">Goa</option>
+            </select><br/>
+            <textarea name="Address" rows="6" cols="50">
+                Write your Address
+            </textarea><br/>
+            <input type="submit" value="Submit">
+            <br/>
+            <input type="color" name="color" value="color"/>
+        </form>
+    </body>
+</html>
